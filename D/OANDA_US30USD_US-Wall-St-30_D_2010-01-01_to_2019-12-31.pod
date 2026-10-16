@@ -1,0 +1,71 @@
+{
+  "pod_version": "4.0",
+  "instrument": "US30_USD",
+  "granularity": "D",
+  "chunk_start": "2010-01-01",
+  "chunk_end": "2019-12-31",
+  "parquet_file": "OANDA_US30USD_US-Wall-St-30_D_2010-01-01_to_2019-12-31.parquet",
+  "data_file": "OANDA_US30USD_US-Wall-St-30_D_2010-01-01_to_2019-12-31.parquet",
+  "row_count": 2634,
+  "first_candle": {
+    "time": 1262556000,
+    "Time": "2010-01-03T22:00:00.000000000Z",
+    "open": 10476.5,
+    "high": 10640.9,
+    "low": 10476.5,
+    "close": 10612.5,
+    "volume": 5991
+  },
+  "last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 28476.6,
+    "high": 28596.6,
+    "low": 28384.4,
+    "close": 28595.2,
+    "volume": 32698
+  },
+  "csv_file": "OANDA_US30USD_US-Wall-St-30_D_2010-01-01_to_2019-12-31.parquet",
+  "csv_row_count": 2634,
+  "csv_first_candle": {
+    "time": 1262556000,
+    "Time": "2010-01-03T22:00:00.000000000Z",
+    "open": 10476.5,
+    "high": 10640.9,
+    "low": 10476.5,
+    "close": 10612.5,
+    "volume": 5991
+  },
+  "csv_last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 28476.6,
+    "high": 28596.6,
+    "low": 28384.4,
+    "close": 28595.2,
+    "volume": 32698
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T00:51:57.000000000Z",
+  "generated_at": "2026-10-16T00:51:57.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2003-03-23T22:00:00Z",
+        "to": "2016-11-29T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-11-29T22:00:00Z",
+        "to": "2026-10-15T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
